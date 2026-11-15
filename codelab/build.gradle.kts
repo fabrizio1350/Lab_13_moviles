@@ -1,6 +1,6 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.plugin.compose")
+    id("com.android.application") version "9.3.3"
+    id("org.jetbrains.kotlin.plugin.compose") version "2.2.10"
 }
 android {
     namespace = "com.example.android.codelab.animation"
@@ -19,3 +19,4 @@ dependencies {
     implementation("androidx.compose.animation:animation:1.7.5")
     implementation("androidx.compose.ui:ui-tooling-preview")
 }
+
